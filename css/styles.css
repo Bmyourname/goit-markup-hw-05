@@ -771,3 +771,14 @@ input::placeholder {
 .comment_txt:focus {
     border-color: #4D5AE5;
 }
+
+.checkbox {
+    margin-bottom: 24px;
+}
+
+.agree {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:#8e8f99;
+}
