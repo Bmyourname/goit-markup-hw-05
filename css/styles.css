@@ -611,6 +611,10 @@ input::placeholder {
     border-radius: 4px;
 }
 
+.icons {
+    margin-left: 16px;
+}
+
 .telegram {
     margin-left: 16px;
 }
