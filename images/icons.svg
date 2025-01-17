@@ -45,5 +45,8 @@
     <symbol id="close" viewBox= "0 0 16 16">
       <path fill="#ffffff" d="M0 0h8v8H0z"/>
     </symbol>
+    <symbol id="check-box">
+      <rect width="15" height="15" x=".5" y=".5" stroke="#2E2F42" stroke-opacity=".4" rx="1.5"/>
+    </symbol>
   </defs>
 </svg>

@@ -455,9 +455,13 @@
                     <textarea id="user-comment" name="user-comment" placeholder="Text input" class="comment_txt"></textarea>
                 </div>
                 <div class="checkbox">
-                    <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="check"class="visually-hidden">
+                    <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="check" visually-hiden>
                     <label for="user-privacy" class="agree">I accept the terms and conditions of the
-                        <span class="not_agree"></span>
+                        <span class="not_agree">
+                            <svg width="10" height="8" class="agree_not">
+                                <use href="./images/icons.svg#check-box"></use>
+                            </svg>
+                        </span>
                     </label>
                 </div>
             </form>
