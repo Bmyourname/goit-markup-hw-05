@@ -569,12 +569,10 @@ p {
     letter-spacing: 0.02em;
     color: #ffffff;
  }
-.form {
-    gap: 24px;
-}
 
 .subscribe-form {
     display: flex;
+    gap: 24px;
 }
 
 .subscribe-label {
