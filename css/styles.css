@@ -579,7 +579,7 @@ p {
 }
 
 .subscribe-form {
-    display: block;
+    display: flex;
 }
 
 .subscribe-label {
