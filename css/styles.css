@@ -617,9 +617,8 @@ input::placeholder {
 /* #endregion Footer */
 
 .modal-overlay {
-background-color: #2E2F42;
     
-    
+background-color: rgba(46, 47, 66, 0.4);
 position: fixed;
 left: 0;
 top: 0;
