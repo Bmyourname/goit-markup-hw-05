@@ -795,7 +795,7 @@ input::placeholder {
     fill: transparent;
 }
 
-input:checked+span {
+input:checked {
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
@@ -803,5 +803,5 @@ input:checked+span {
 
 .privacy {
     color:#4d5ae5;
-    
+
 }
