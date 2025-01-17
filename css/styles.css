@@ -795,7 +795,7 @@ input::placeholder {
     fill: transparent;
 }
 
-input[type="checkbox"]:checked {
+input[type="checkbox"] + label:checked {
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
