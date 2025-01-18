@@ -795,7 +795,7 @@ input::placeholder {
     fill: transparent;
 }
 
-.checkbox:checked + .agree:checked .not_agree {
+.visually-hidden:checked + .agree:checked .not_agree {
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
