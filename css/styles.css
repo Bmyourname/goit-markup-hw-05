@@ -644,7 +644,7 @@ input::placeholder {
     pointer-events: auto;
 }
 
-.modal {
+.modal_window {
     position: absolute;
     top: 50%;
     left: 50%;
