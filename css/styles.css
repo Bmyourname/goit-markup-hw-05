@@ -88,10 +88,12 @@ p {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    align-items: center;
+    gap: 40px;
 }
 
 .address-list {
-    display: flex;
+    display: inline;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -120,7 +122,6 @@ p {
     padding-top: 24px;
     padding-bottom: 24px;
     position: relative;
-    color: #404BBF;
 }
 
 .nav-item-link2 {
@@ -154,29 +155,14 @@ p {
     color: #404BBF;
 }
 
-.address {
-    display: flex;
+.contacts {
     font-style: normal;
-    gap: 40px;
+    margin-left: auto;
 }
 
-.nav-list {
-    display: flex;
-    gap: 40px;
-}
-
-.mail {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: currentColor;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #434455;
-    padding-right: 41px;
-}
-
-.tel {
+.contacts-link {
+    display: block;
+    padding:24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: currentColor;
     font-weight: 400;
@@ -186,9 +172,15 @@ p {
     color: #434455;
 }
 
+.contacts-list {
+    display:flex;
+    align-items: center;
+    gap: 40px;
+}
 
-.mail:hover,
-.mail:focus {
+
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404BBF;
 }
 
