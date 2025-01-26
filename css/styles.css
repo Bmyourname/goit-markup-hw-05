@@ -52,12 +52,13 @@ p {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
-    height: 70px;
+    max-height: 72px;
+    max-width: 1440px;
 }
 
 .head-conteiner {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -71,7 +72,6 @@ p {
     color: #4D5AE5;
     padding-right: 76px;
     padding-left: 115px;
-    padding-top: 24px;
 }
 
 .logo-style {
@@ -91,8 +91,7 @@ p {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-right: 328px;
-    padding-top: 24px;
+    margin-right: 328px;
     gap: 40px;
 }
 
@@ -103,7 +102,7 @@ p {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-top: 24px;
+    align-items: center;
 }
 
 .nav-page {
@@ -254,8 +253,6 @@ p {
 .values {
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-right: 560px;
-    margin-left: 560px;
     max-width: 1440px;
 }
 
@@ -313,8 +310,6 @@ p {
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-left: 560px;
-    margin-right: 560px;
 }
 
 .team_def {
@@ -404,8 +399,6 @@ p {
 .experiences {
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-left: 560px;
-    margin-right: 560px;
 }
 
 .portfolio {
