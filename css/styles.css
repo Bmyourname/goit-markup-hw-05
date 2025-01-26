@@ -818,6 +818,7 @@ input::placeholder {
     justify-content: center;
     fill: transparent;
     margin-right: 8px;
+    justify-content: flex-start;
 }
 
 .visually-hidden:checked + .agree .not_agree {
